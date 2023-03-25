@@ -856,6 +856,9 @@ footer .map img {
 
 /* Tablet start */
 @media (max-width:1280px){
+    html{
+        font-size: 55%;
+    }
     .logo {
         width: 60%;
     }
@@ -987,10 +990,16 @@ footer .map img {
     .mid-news {
         margin-bottom: 2rem;
     }
+    .stu-box {
+        margin-bottom: 2rem;
+    }
 }
 /* Tablet end */
 
 @media (max-width:768px){
+    html{
+        font-size: 50%;
+    }
     .slide .box-img {
         height: 18rem;
     } 
