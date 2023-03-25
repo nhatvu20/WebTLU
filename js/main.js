@@ -29,17 +29,17 @@ paneItem.forEach((item,index)=>{
 })
 
 // Banner
-const slides = document.querySelectorAll('.slide .box-img');
-// console.log(slides);
-let index=0;
-function next() {
-    document.querySelector('.slide .box-img.active').classList.remove('active');
-    // slides[index].classList.remove('active');
-    index=(index+1)%slides.length;
-    slides[index].classList.add('active');
-}
+// const slides = document.querySelectorAll('.slide .box-img');
+// // console.log(slides);
+// let index=0;
+// function next() {
+//     document.querySelector('.slide .box-img.active').classList.remove('active');
+//     // slides[index].classList.remove('active');
+//     index=(index+1)%slides.length;
+//     slides[index].classList.add('active');
+// }
 
-setInterval(next,2000);
+// setInterval(next,2000);
 
 
 // Banner Drag non-autofit
