@@ -884,7 +884,7 @@ footer .map img {
         display: block;
         width: 100%;
         padding-left: 0.8rem;
-        display: none;
+        /* display: none; */
         animation: dropDown 0.2s linear;
     }
     @keyframes dropDown {
