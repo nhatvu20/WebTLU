@@ -311,9 +311,9 @@ header::before{
     font-size: 1.35rem;
 }
 
-a:link {
+/* a:link {
     color: var(--black);
-}
+} */
 
 /* .menu-container .menu-box a:visited {
     color: rgb(2,139,255);
