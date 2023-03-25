@@ -34,8 +34,8 @@ section {
     padding: 2rem 0;
 }
 
-.slick-arrow {
-    display: none;
+.slick-arrow{
+    display: none !important;
 }
 
 /* Header start */
